@@ -38,7 +38,8 @@ namespace TheProjectTascamon.Controllers
             }
             catch (Exception ex)
             {
-                // Log the exception (ex) here as needed
+                
+                _logger.LogError(ex, "An error occurred while Attacking.");
                 return StatusCode(500, "Internal server error.");
             }
         }

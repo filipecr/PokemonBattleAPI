@@ -20,5 +20,9 @@ namespace TheProjectTascamon.IRepos
         Task<IDbContextTransaction> BeginTransactionAsync();
         Task CommitTransactionAsync(IDbContextTransaction transaction);
         Task RollbackTransactionAsync(IDbContextTransaction transaction);
+        Task<bool> AnyAlivePokemon (string battleId, int playerId);
+        Task<List<Pokemon>> GetAlivePokemonForTrainerAsync(string battleId, int userId);
     }
+
 }
+

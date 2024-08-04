@@ -166,13 +166,28 @@ namespace TheProjectTascamon.Service
             }
         }
 
-        public async Task CheckBattleOverAsync(string battleId)
+        public async Task<(bool IsBattleOver, int? WinnerId)> CheckBattleOverAsync(string battleId)
         {
             try
             {
                 _logger.LogInformation("Checking if battle {BattleId} is over", battleId);
-                var battle = await _battleRepository.GetBattleByIdAsync(battleId);
-                // Add logic to check if the battle is over
+                var usersBattles = await _battleRepository.GetUsersBattlesByBattleIdAsync(battleId);
+                int? winnerId = null;
+
+                foreach (var userBattle in usersBattles)
+                {
+                    bool hasAlivePokemon = await _battleRepository.AnyAlivePokemon(battleId, userBattle.UsersId);
+                    if (!hasAlivePokemon)
+                    {
+                        // This player has no alive Pokémon, so the other player is the winner
+                        winnerId = usersBattles.FirstOrDefault(u => u.UsersId != userBattle.UsersId)?.UsersId;
+                        break;
+                    }
+                }
+
+                bool isBattleOver = winnerId.HasValue;
+
+                return (isBattleOver, winnerId);
             }
             catch (Exception ex)
             {
@@ -205,12 +220,32 @@ namespace TheProjectTascamon.Service
                     _logger.LogError("Winner {Winner} is not a participant in battle {BattleId}", winner, battleId);
                     throw new ArgumentException("The Winner is not a participant in this battle.");
                 }
-
+                battle.EndTime = DateTime.Now;
                 await _battleRepository.SaveChangesAsync();
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Error updating winner for battle {BattleId}", battleId);
+                throw;
+            }
+        }
+
+        public async Task<List<Pokemon>> GetAlivePokemonForTrainerAsync(string battleId, string playerName)
+        {
+            try
+            {
+                var user = await _userService.GetUserByUsernameAsync(playerName);
+                if (user == null)
+                {
+                    _logger.LogWarning("User not found: {PlayerName}", playerName);
+                    return new List<Pokemon>();
+                }
+
+                return await _battleRepository.GetAlivePokemonForTrainerAsync(battleId, user.Id);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error retrieving alive Pokémon for player {PlayerName} in battle {BattleId}", playerName, battleId);
                 throw;
             }
         }

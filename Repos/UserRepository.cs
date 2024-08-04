@@ -16,7 +16,12 @@ namespace TheProjectTascamon.Repos
 
         public async Task<User> GetUserByUsernameAsync(string username)
         {
-            return await _context.Users.SingleOrDefaultAsync(u => u.UserName == username);
+            var user = await _context.Users.SingleOrDefaultAsync(u => u.UserName == username);
+            if (user == null)
+            {
+                throw new Exception($"User with username {username} not found.");
+            }
+            return user;
         }
 
         public async Task CreateUserAsync(User user)

@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using TheProjectTascamon.Models;
 using TheProjectTascamon.Service;
 
 namespace TheProjectTascamon.Controllers
@@ -9,10 +11,12 @@ namespace TheProjectTascamon.Controllers
     public class BattleController : ControllerBase
     {
         private readonly IBattleService _battleService;
+        private readonly ILogger<BattleController> _logger;
 
-        public BattleController(IBattleService battleService)
+        public BattleController(IBattleService battleService, ILogger<BattleController> logger)
         {
             _battleService = battleService;
+            _logger = logger;
         }
 
         [HttpPost("CreateBattle")]
@@ -76,22 +80,35 @@ namespace TheProjectTascamon.Controllers
             }
         }
 
-        [HttpGet("CheckBattleOver")]
-        public async Task<IActionResult> CheckBattleOverAsync(string battleId)
-        {
-            if (string.IsNullOrWhiteSpace(battleId))
-            {
-                return BadRequest("Battle ID cannot be empty.");
-            }
+        
 
+        [HttpGet("/IsOverAndWinnner")]
+        public async Task<IActionResult> IsBattleOver(string battleId)
+        {
             try
             {
-                await _battleService.CheckBattleOverAsync(battleId);
-                return Ok("Battle check completed.");
+                (bool isBattleOver, int? winnerId) = await _battleService.CheckBattleOverAsync(battleId);
+                return Ok(new { IsBattleOver = isBattleOver, WinnerId = winnerId });
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Internal server error: {ex.Message}");
+                _logger.LogError(ex, "Error checking if battle is over");
+                return StatusCode(500, "Internal server error");
+            }
+        }
+
+        [HttpGet("{battleId}/alive-pokemon/{playerName}")]
+        public async Task<IActionResult> GetAlivePokemonForTrainer(string battleId, string playerName)
+        {
+            try
+            {
+                var alivePokemon = await _battleService.GetAlivePokemonForTrainerAsync(battleId, playerName);
+                return Ok(alivePokemon);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error retrieving alive Pokémon for player {PlayerName} in battle {BattleId}", playerName, battleId);
+                return StatusCode(500, "Internal server error");
             }
         }
     }

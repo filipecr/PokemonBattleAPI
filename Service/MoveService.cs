@@ -81,7 +81,7 @@ namespace Tascamon.Service
 
             if (battleStatsLog != null)
             {
-                battleStatsLog.HpC -= (decimal)damage;
+                battleStatsLog.HpC -= (decimal?)damage;
                 _moveRepository.UpdateBattleStatsLogAsync(battleStatsLog);
             }
             else

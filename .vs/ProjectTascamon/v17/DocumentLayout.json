@@ -3,56 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Filip\\source\\repos\\Tascamon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\controllers\\pokemoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:controllers\\pokemoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\repos\\moverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:repos\\moverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\controllers\\movecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:controllers\\movecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\controllers\\battlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:controllers\\battlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\irepos\\imoverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:irepos\\imoverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\irepos\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:irepos\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\irepos\\ipokemonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:irepos\\ipokemonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\service\\pokemonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:service\\pokemonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\service\\battleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:service\\battleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\service\\moveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:service\\moveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\repos\\battlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:repos\\battlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\service\\pokemonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:service\\pokemonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\controllers\\movecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:controllers\\movecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\iservice\\ipokemonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:iservice\\ipokemonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\iservice\\ibattleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:iservice\\ibattleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\iservice\\imoveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:iservice\\imoveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\repos\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,12 +47,72 @@
       "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:repos\\pokemonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\repos\\moverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:repos\\moverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\dbcontext\\tascamoncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:dbcontext\\tascamoncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\service\\moveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:service\\moveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\models\\usersbattle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:models\\usersbattle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\models\\battle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:models\\battle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\models\\battlestatslog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:models\\battlestatslog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\models\\battlelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:models\\battlelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\irepos\\ibattlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:irepos\\ibattlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\service\\battleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:service\\battleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\controllers\\battlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:controllers\\battlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\controllers\\pokemoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:controllers\\pokemoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\irepos\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:irepos\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\irepos\\imoverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:irepos\\imoverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\irepos\\ipokemonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:irepos\\ipokemonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED1E3D35-1BA7-4999-A1AC-13CB6A29C53C}|TheProjectTascamon.csproj|c:\\users\\filip\\source\\repos\\tascamon\\viewmodel\\pokemonviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -90,179 +134,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BattleController.cs",
-              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Controllers\\BattleController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BattleController.cs",
-              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Controllers\\BattleController.cs",
-              "RelativeToolTip": "Controllers\\BattleController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T13:21:29.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BattleService.cs",
-              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Service\\BattleService.cs",
-              "RelativeDocumentMoniker": "Service\\BattleService.cs",
-              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Service\\BattleService.cs",
-              "RelativeToolTip": "Service\\BattleService.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAowCAAAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T15:19:31.851Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAADgvyMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T20:39:18.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IMoveRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\IRepos\\IMoveRepository.cs",
-              "RelativeDocumentMoniker": "IRepos\\IMoveRepository.cs",
-              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\IRepos\\IMoveRepository.cs",
-              "RelativeToolTip": "IRepos\\IMoveRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T13:23:37.318Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "MoveService.cs",
-              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Service\\MoveService.cs",
-              "RelativeDocumentMoniker": "Service\\MoveService.cs",
-              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Service\\MoveService.cs",
-              "RelativeToolTip": "Service\\MoveService.cs",
-              "ViewState": "AQIAAF8AAAAAAAAAAAAgwBcAAAAdAAAA",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Service\\UserService.cs",
+              "RelativeToolTip": "Service\\UserService.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAowCEAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T14:09:11.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PokemonService.cs",
-              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Service\\PokemonService.cs",
-              "RelativeDocumentMoniker": "Service\\PokemonService.cs",
-              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Service\\PokemonService.cs",
-              "RelativeToolTip": "Service\\PokemonService.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwCcAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T13:19:50.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IPokemonRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\IRepos\\IPokemonRepository.cs",
-              "RelativeDocumentMoniker": "IRepos\\IPokemonRepository.cs",
-              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\IRepos\\IPokemonRepository.cs",
-              "RelativeToolTip": "IRepos\\IPokemonRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T13:23:14.148Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\IRepos\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "IRepos\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\IRepos\\IUserRepository.cs",
-              "RelativeToolTip": "IRepos\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T15:03:01.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MoveController.cs",
-              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Controllers\\MoveController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MoveController.cs",
-              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Controllers\\MoveController.cs",
-              "RelativeToolTip": "Controllers\\MoveController.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAowBMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T13:18:12.344Z",
+              "WhenOpened": "2024-08-03T14:34:14.411Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PokemonController.cs",
-              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Controllers\\PokemonController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PokemonController.cs",
-              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Controllers\\PokemonController.cs",
-              "RelativeToolTip": "Controllers\\PokemonController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowAwAAAAIAAAA",
+              "Title": "MoveRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Repos\\MoveRepository.cs",
+              "RelativeDocumentMoniker": "Repos\\MoveRepository.cs",
+              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Repos\\MoveRepository.cs",
+              "RelativeToolTip": "Repos\\MoveRepository.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwDQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T14:04:16.798Z",
+              "WhenOpened": "2024-07-22T13:34:21.413Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Repos\\UserRepository.cs",
               "RelativeDocumentMoniker": "Repos\\UserRepository.cs",
               "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Repos\\UserRepository.cs",
               "RelativeToolTip": "Repos\\UserRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAuAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAD4vxgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T15:13:51.276Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\IService\\IUserService.cs",
-              "RelativeDocumentMoniker": "IService\\IUserService.cs",
-              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\IService\\IUserService.cs",
-              "RelativeToolTip": "IService\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T13:48:15.658Z",
+              "WhenOpened": "2024-07-19T15:13:51.276Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IPokemonService.cs",
-              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\IService\\IPokemonService.cs",
-              "RelativeDocumentMoniker": "IService\\IPokemonService.cs",
-              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\IService\\IPokemonService.cs",
-              "RelativeToolTip": "IService\\IPokemonService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "BattleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Repos\\BattleRepository.cs",
+              "RelativeDocumentMoniker": "Repos\\BattleRepository.cs",
+              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Repos\\BattleRepository.cs",
+              "RelativeToolTip": "Repos\\BattleRepository.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAqwEYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T13:20:39.405Z",
+              "WhenOpened": "2024-08-03T10:48:27.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "IMoveService.cs",
               "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\IService\\IMoveService.cs",
               "RelativeDocumentMoniker": "IService\\IMoveService.cs",
@@ -275,7 +203,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 5,
+              "Title": "IPokemonService.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\IService\\IPokemonService.cs",
+              "RelativeDocumentMoniker": "IService\\IPokemonService.cs",
+              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\IService\\IPokemonService.cs",
+              "RelativeToolTip": "IService\\IPokemonService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T13:20:39.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\IService\\IUserService.cs",
+              "RelativeDocumentMoniker": "IService\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\IService\\IUserService.cs",
+              "RelativeToolTip": "IService\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T13:48:15.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IBattleService.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\IService\\IBattleService.cs",
+              "RelativeDocumentMoniker": "IService\\IBattleService.cs",
+              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\IService\\IBattleService.cs",
+              "RelativeToolTip": "IService\\IBattleService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T11:56:28.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MoveController.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Controllers\\MoveController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MoveController.cs",
+              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Controllers\\MoveController.cs",
+              "RelativeToolTip": "Controllers\\MoveController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAwwCoAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T13:18:12.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PokemonService.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Service\\PokemonService.cs",
+              "RelativeDocumentMoniker": "Service\\PokemonService.cs",
+              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Service\\PokemonService.cs",
+              "RelativeToolTip": "Service\\PokemonService.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T13:19:50.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "PokemonRepository.cs",
               "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Repos\\PokemonRepository.cs",
               "RelativeDocumentMoniker": "Repos\\PokemonRepository.cs",
@@ -283,35 +276,234 @@
               "RelativeToolTip": "Repos\\PokemonRepository.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAADgvxIAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T13:22:41.474Z"
+              "WhenOpened": "2024-07-22T13:22:41.474Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MoveRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Repos\\MoveRepository.cs",
-              "RelativeDocumentMoniker": "Repos\\MoveRepository.cs",
-              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Repos\\MoveRepository.cs",
-              "RelativeToolTip": "Repos\\MoveRepository.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAswCQAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T13:34:21.413Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 11,
               "Title": "TascamonContext.cs",
               "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\DBContext\\TascamonContext.cs",
               "RelativeDocumentMoniker": "DBContext\\TascamonContext.cs",
               "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\DBContext\\TascamonContext.cs",
               "RelativeToolTip": "DBContext\\TascamonContext.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAQwCEAAAA2AAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAIA7wBsAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T13:05:49.731Z"
+              "WhenOpened": "2024-07-22T13:05:49.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MoveService.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Service\\MoveService.cs",
+              "RelativeDocumentMoniker": "Service\\MoveService.cs",
+              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Service\\MoveService.cs",
+              "RelativeToolTip": "Service\\MoveService.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAD4v1MAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T14:09:11.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\ViewModel\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\ViewModel\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModel\\LoginViewModel.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAWwA8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T14:39:00.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\ViewModel\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\ViewModel\\RegisterViewModel.cs",
+              "RelativeToolTip": "ViewModel\\RegisterViewModel.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAIAzwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T14:38:20.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T14:38:28.835Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
+              "Title": "Battle.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Models\\Battle.cs",
+              "RelativeDocumentMoniker": "Models\\Battle.cs",
+              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Models\\Battle.cs",
+              "RelativeToolTip": "Models\\Battle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T14:35:30.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BattleStatsLog.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Models\\BattleStatsLog.cs",
+              "RelativeDocumentMoniker": "Models\\BattleStatsLog.cs",
+              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Models\\BattleStatsLog.cs",
+              "RelativeToolTip": "Models\\BattleStatsLog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T14:38:11.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BattleLog.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Models\\BattleLog.cs",
+              "RelativeDocumentMoniker": "Models\\BattleLog.cs",
+              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Models\\BattleLog.cs",
+              "RelativeToolTip": "Models\\BattleLog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T14:38:04.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BattleService.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Service\\BattleService.cs",
+              "RelativeDocumentMoniker": "Service\\BattleService.cs",
+              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Service\\BattleService.cs",
+              "RelativeToolTip": "Service\\BattleService.cs",
+              "ViewState": "AQIAAJQAAAAAAAAAAAA4wOgAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T15:19:31.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PokemonController.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Controllers\\PokemonController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PokemonController.cs",
+              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Controllers\\PokemonController.cs",
+              "RelativeToolTip": "Controllers\\PokemonController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T14:04:16.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UsersBattle.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Models\\UsersBattle.cs",
+              "RelativeDocumentMoniker": "Models\\UsersBattle.cs",
+              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Models\\UsersBattle.cs",
+              "RelativeToolTip": "Models\\UsersBattle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T11:42:28.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BattleController.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Controllers\\BattleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BattleController.cs",
+              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Controllers\\BattleController.cs",
+              "RelativeToolTip": "Controllers\\BattleController.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAGoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T13:21:29.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IBattleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\IRepos\\IBattleRepository.cs",
+              "RelativeDocumentMoniker": "IRepos\\IBattleRepository.cs",
+              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\IRepos\\IBattleRepository.cs",
+              "RelativeToolTip": "IRepos\\IBattleRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA9wBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T11:00:29.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\IRepos\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "IRepos\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\IRepos\\IUserRepository.cs",
+              "RelativeToolTip": "IRepos\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T15:03:01.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IPokemonRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\IRepos\\IPokemonRepository.cs",
+              "RelativeDocumentMoniker": "IRepos\\IPokemonRepository.cs",
+              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\IRepos\\IPokemonRepository.cs",
+              "RelativeToolTip": "IRepos\\IPokemonRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T13:23:14.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IMoveRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\IRepos\\IMoveRepository.cs",
+              "RelativeDocumentMoniker": "IRepos\\IMoveRepository.cs",
+              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\IRepos\\IMoveRepository.cs",
+              "RelativeToolTip": "IRepos\\IMoveRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T13:23:37.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Filip\\source\\repos\\Tascamon\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAADgvyMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T20:39:18.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "PokemonViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\ViewModel\\PokemonViewModel.cs",
               "RelativeDocumentMoniker": "ViewModel\\PokemonViewModel.cs",
@@ -323,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 29,
               "Title": "MoveViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\ViewModel\\MoveViewModel.cs",
               "RelativeDocumentMoniker": "ViewModel\\MoveViewModel.cs",
@@ -335,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 30,
               "Title": "AutoMapperProfile.cs",
               "DocumentMoniker": "C:\\Users\\Filip\\source\\repos\\Tascamon\\AutoMapperProfile.cs",
               "RelativeDocumentMoniker": "AutoMapperProfile.cs",

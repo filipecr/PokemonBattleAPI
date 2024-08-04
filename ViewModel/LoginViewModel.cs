@@ -13,7 +13,7 @@ namespace TheProjectTascamon.ViewModel
         [Required]
         [StringLength(20, MinimumLength = 3, ErrorMessage = "The username must be between 3 and 20 characters long.")]
         [Display(Name = "Username")]
-        public string Username { get; set; }
+        public string? Username { get; set; }
 
 
         [Required]

@@ -16,7 +16,12 @@ public class BattleRepository : IBattleRepository
 
     public async Task<User> GetUserByUsernameAsync(string username)
     {
-        return await _context.Users.SingleOrDefaultAsync(u => u.UserName == username);
+        var user = await _context.Users.SingleOrDefaultAsync(u => u.UserName == username);
+        if (user == null)
+        {
+            throw new Exception($"User with username {username} not found.");
+        }
+        return user;
     }
 
     public async Task AddBattleAsync(Battle battle)
@@ -41,7 +46,12 @@ public class BattleRepository : IBattleRepository
 
     public async Task<Pokemon> GetPokemonByIdAsync(int pokemonId)
     {
-        return await _context.Pokemons.SingleOrDefaultAsync(p => p.PokemonId == pokemonId);
+        var pokemon = await _context.Pokemons.SingleOrDefaultAsync(p => p.PokemonId == pokemonId);
+        if (pokemon == null)
+        {
+            throw new Exception($"Pokemon with ID {pokemonId} not found.");
+        }
+        return pokemon;
     }
 
     public async Task AddBattleStatsLogAsync(BattleStatsLog battleStatsLog)
@@ -51,8 +61,14 @@ public class BattleRepository : IBattleRepository
 
     public async Task<Battle> GetBattleByIdAsync(string battleId)
     {
-        return await _context.Battles.SingleOrDefaultAsync(b => b.BattleId == battleId);
+        var battle = await _context.Battles.SingleOrDefaultAsync(b => b.BattleId == battleId);
+        if (battle == null)
+        {
+            throw new Exception($"Battle with ID {battleId} not found.");
+        }
+        return battle;
     }
+
 
     public async Task<List<UsersBattle>> GetUsersBattlesByBattleIdAsync(string battleId)
     {
@@ -77,6 +93,24 @@ public class BattleRepository : IBattleRepository
     public async Task RollbackTransactionAsync(IDbContextTransaction transaction)
     {
         await transaction.RollbackAsync();
+    }
+
+    public async Task<bool> AnyAlivePokemon(string battleId, int playerId)
+    {       
+        return await _context.BattleStatsLogs
+            .Where(b => b.BattleId == battleId && b.PlayerId == playerId && b.HpC > 0 )
+            .AnyAsync();        
+    }
+
+    public async Task<List<Pokemon>> GetAlivePokemonForTrainerAsync(string battleId, int userId)
+    {
+        return await _context.BattleStatsLogs
+            .Where(b => b.BattleId == battleId && b.PlayerId == userId && b.HpC > 0)
+            .Join(_context.Pokemons,
+                  b => b.PokemonId,
+                  p => p.PokemonId,
+                  (b, p) => p)
+            .ToListAsync();
     }
 }
 

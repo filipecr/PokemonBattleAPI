@@ -5,7 +5,7 @@ namespace TheProjectTascamon.Models;
 
 public partial class BattleStatsLog
 {
-    public string BattleId { get; set; }
+    public string? BattleId { get; set; }
 
     public decimal? HpC { get; set; }
 

@@ -141,3 +141,4 @@ C:\Users\Filip\source\repos\Tascamon\obj\Debug\net8.0\refint\TheProjectTascamon.
 C:\Users\Filip\source\repos\Tascamon\obj\Debug\net8.0\TheProjectTascamon.pdb
 C:\Users\Filip\source\repos\Tascamon\obj\Debug\net8.0\TheProjectTascamon.genruntimeconfig.cache
 C:\Users\Filip\source\repos\Tascamon\obj\Debug\net8.0\ref\TheProjectTascamon.dll
+C:\Users\Filip\source\repos\Tascamon\obj\Debug\net8.0\TheProjectTascamon.sourcelink.json

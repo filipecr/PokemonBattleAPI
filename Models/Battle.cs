@@ -5,7 +5,7 @@ namespace TheProjectTascamon.Models;
 
 public partial class Battle
 {
-    public string BattleId { get; set; }
+    public string? BattleId { get; set; }
 
     public DateTime StartTime { get; set; }
 

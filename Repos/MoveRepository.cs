@@ -16,17 +16,40 @@ public class MoveRepository : IMoveRepository
 
     public async Task<Pokemon> GetPokemonByIdAsync(int pokemonId)
     {
-        return await _context.Pokemons.SingleOrDefaultAsync(p => p.PokemonId == pokemonId);
+
+        var pokemon = await _context.Pokemons.SingleOrDefaultAsync(p => p.PokemonId == pokemonId);
+       
+        if (pokemon == null)
+        {
+            throw new KeyNotFoundException($"Pokemon with ID {pokemonId} not found.");
+        }
+
+        return pokemon;
     }
 
     public async Task<Move> GetMoveByIdAsync(int moveId)
     {
-        return await _context.Moves.SingleOrDefaultAsync(m => m.MovesId == moveId);
+        var Move = await _context.Moves.SingleOrDefaultAsync(m => m.MovesId == moveId);
+        if (Move == null)
+        {
+            throw new KeyNotFoundException($"Move with ID {moveId} not found.");
+        }
+        return Move;
     }
 
     public async Task<BattleStatsLog> GetBattleStatsLogAsync(int pokemonId, string battleId)
     {
-        return await _context.BattleStatsLogs.SingleOrDefaultAsync(b => b.PokemonId == pokemonId && b.BattleId == battleId);
+        var battleStatsLog = await _context.BattleStatsLogs
+       .SingleOrDefaultAsync(b => b.PokemonId == pokemonId && b.BattleId == battleId);
+
+        if (battleStatsLog == null)
+        {
+            throw new KeyNotFoundException($"Battle stats log for Pokemon ID {pokemonId} in Battle ID {battleId} not found.");
+        }
+
+        return battleStatsLog;
+
+
     }
 
     public void UpdateBattleStatsLogAsync(BattleStatsLog log)

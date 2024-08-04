@@ -22,7 +22,7 @@ namespace TheProjectTascamon.Service
             var existingUser = await _userRepository.GetUserByUsernameAsync(userRegister.Username);
             if (existingUser != null)
             {
-                return null; // User already exists
+                throw new InvalidOperationException($"User Already Exists");
             }
 
             var user = new User
@@ -44,7 +44,8 @@ namespace TheProjectTascamon.Service
             var user = await _userRepository.GetUserByUsernameAsync(userLogin.Username);
             if (user == null || !_passwordHasher.VerifyHashedPassword(user, user.PasswordHash, userLogin.Password).Equals(PasswordVerificationResult.Success))
             {
-                return null; // User not found or password is incorrect
+                throw new InvalidOperationException($"User not found or password is incorrect");
+                
             }
 
             return user;

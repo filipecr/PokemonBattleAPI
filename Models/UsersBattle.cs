@@ -5,9 +5,9 @@ namespace TheProjectTascamon.Models;
 
 public partial class UsersBattle
 {
-    public string BattleId { get; set; }
+    public string? BattleId { get; set; }
 
-    public int? UsersId { get; set; }
+    public int UsersId { get; set; }
 
     public virtual Battle? Battle { get; set; }
 
